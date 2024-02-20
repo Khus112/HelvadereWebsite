@@ -19,16 +19,19 @@
     width: 100%;
     height: 100%;
     text-align: center;
-    display: none; /* Keep hidden initially */
-    position: fixed; /* Use fixed to cover the entire viewport */
+}
+
+
+#screen2 {
+    background-image: url('fatih.PNG');
+    background-size: cover; /* Cover the entire area of the element */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    position: fixed; /* Cover the viewport */
     top: 0;
     left: 0;
-    width: 100vw; /* 100% of the viewport width */
-    height: 100vh; /* 100% of the viewport height */
-    background-image: url('fatih.PNG'); /* Adjust path as needed */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
 }
 
 #heading {
