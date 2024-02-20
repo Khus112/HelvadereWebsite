@@ -38,7 +38,7 @@
 }
 
 /* Heading styles */
-#screen1 h1, #screen2 h1 {
+#screen1 h1 {
     background-color: black;
     position: absolute;
     top: 20px; /* Spacing from the top */
