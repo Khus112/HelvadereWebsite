@@ -37,7 +37,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             setTimeout(() => {
                 typewriterScreen.style.display = 'none'; // Hide typewriter screen
                 screen1.style.display = 'block'; // Show screen 1
-            }, 3000); // 3-second delay
+            }, 2000); // 3-second delay
         }
     }
 
