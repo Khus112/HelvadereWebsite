@@ -22,13 +22,12 @@
 }
 
 
-#screen2 {
-    background-image: url('fatih.PNG');
-    background-size: 50%; /* Scales the image down to 50% of the element size */
-    background-repeat: no-repeat;
-    background-position: center;
+#screen2Image {
+    width: 200px; /* Set the width as desired */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Make the image a block-level element */
+    margin: 20px auto; /* Center the image horizontally */
 }
-
 
 #heading {
     position: absolute;
