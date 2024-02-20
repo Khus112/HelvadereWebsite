@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (titleIndex < titleText.length) {
             typewriterText.innerHTML += titleText.charAt(titleIndex);
             titleIndex++;
-            setTimeout(typeWriterTitle, 100); // Speed of typing
+            setTimeout(typeWriterTitle, 50); // Speed of typing
         } else {
             typewriterSubtitle.style.display = 'block'; // Show subtitle
             typeWriterSubtitle(); // Start typing subtitle
@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
         if (subtitleIndex < subtitleText.length) {
             typewriterSubtitle.innerHTML += subtitleText.charAt(subtitleIndex);
             subtitleIndex++;
-            setTimeout(typeWriterSubtitle, 100); // Speed of typing
+            setTimeout(typeWriterSubtitle, 50); // Speed of typing
         } else {
             // Delay before switching screens, after the full texts are revealed
             setTimeout(() => {
