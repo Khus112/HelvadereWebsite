@@ -24,7 +24,7 @@
 
 #screen2 {
     background-image: url('fatih.PNG');
-    background-size: cover; /* Cover the entire area of the element */
+    background-size: 200px 150px; /* Cover the entire area of the element */
     background-position: center; /* Center the background image */
     background-repeat: no-repeat; /* Do not repeat the image */
     position: fixed; /* Cover the viewport */
@@ -32,6 +32,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
+    
 }
 
 #heading {
