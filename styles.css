@@ -24,14 +24,11 @@
 
 #screen2 {
     background-image: url('fatih.PNG');
-    background-size: 200px 150px; /* Cover the entire area of the element */
-    background-position: center; /* Center the background image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    position: fixed; /* Cover the viewport */
-    top: 0;
-    left: 0;
-    
+    background-size: 50%; /* Scales the image down to 50% of the element size */
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 
 #heading {
     position: absolute;
