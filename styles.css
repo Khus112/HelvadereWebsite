@@ -23,7 +23,7 @@
 
 
 #screen2Image {
-    width: 400px; /* Set the width as desired */
+    width: 200px; /* Set the width as desired */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Make the image a block-level element */
     margin: 20px auto; /* Center the image horizontally */
@@ -97,7 +97,7 @@
     padding: 30px;
     box-shadow: 0 4px 8px rgba(138, 13, 13, 0.1);
     position: absolute;
-    bottom: 50%; /*  */
+    bottom: 20%; /*  */
     left: 50%; /* Center horizontally */
     transform: translateX(-50%); /* Adjust horizontal centering */
     width: 80%; /* Set a max-width for the paragraph */
